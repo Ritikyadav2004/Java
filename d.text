@@ -1,2 +1,2 @@
 git remote add origin https://github.com/Ritikyadav2004/Java.git
-git config credential.username "new name"
+git config credential.username "new name"       
