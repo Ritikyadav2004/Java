@@ -59,10 +59,16 @@ public class Assignement
 
     // TAKE A INPUT STRING AND PRINT IT;
     Scanner s =new Scanner(System.in);
-    System.out.print("Enter your name : ");
-    String name = s.next();
-    System.out.print("Enter Your age : ");
-    int age  = s.nextInt();
-    System.out.println("My Name is "+name+" Iam "+age+" year old");
-    }
+    // System.out.print("Enter your name : ");
+    // String name = s.next();
+    // System.out.print("Enter Your age : ");
+    // int age  = s.nextInt();
+    // System.out.println("My Name is "+name+" Iam "+age+" year old");
+    System.out.println("Enter a character: ");
+    char input =s.next().charAt(0);
+     System.out.println(input);
+
+     System.out.println((int)(input));
+    }  
+
 }
