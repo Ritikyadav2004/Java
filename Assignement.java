@@ -49,11 +49,20 @@ public class Assignement
      
 
     //Q6 Declaere 2 int and 2 float var, add all 4 and print result
-    int a = 19;
-    int b = 20;
+    // int a = 19;
+    // int b = 20;
 
-    float c = 10.5f;
-    float d = 9.75f;
-    System.out.println(a+b+c+d); 
+    // float c = 10.5f;
+    // float d = 9.75f;
+    // System.out.println(a+b+c+d); 
+
+
+    // TAKE A INPUT STRING AND PRINT IT;
+    Scanner s =new Scanner(System.in);
+    System.out.print("Enter your name : ");
+    String name = s.next();
+    System.out.print("Enter Your age : ");
+    int age  = s.nextInt();
+    System.out.println("My Name is "+name+" Iam "+age+" year old");
     }
 }
