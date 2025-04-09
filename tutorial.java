@@ -335,25 +335,28 @@ public class tutorial
 
 
   // PRINTING PALINDROMIC NUMBER PYRAMID
-  int row = 5;
-  int column = 7;
-  int num=1;
-  int prt=1;
-  for(int i=1;i<=row;i++)
-  {
-    for(int j= (column/2)+(row-2)-i;j>=1;j--)
-    {
-      System.out.print(" ");
-    }
-    for(int k=1;k<=num;k++)
-    { 
+  // int row = 5;
+  // int column = 7;
+  // int num=1;
+  // int prt=1;
+  // for(int i=1;i<=row;i++)
+  // {
+  //   for(int j= (column/2)+(row-2)-i;j>=1;j--)
+  //   {
+  //     System.out.print(" ");
+  //   }
+  //   for(int k=1;k<=num;k++)
+  //   { 
       
-      System.out.print(prt);
+  //     System.out.print(prt);
       
-    }
-    num+=2;
-    System.out.println("");
-  }
+  //   }
+  //   num+=2;
+  //   System.out.println("");
+  // }
+
+
+  //ARRAY
     }
 
 }
