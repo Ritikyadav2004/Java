@@ -9,7 +9,7 @@ public class Assignement
     //  int num1 = 22;
     //  System.out.println(num%num1);
 
-     //SWAP 2 NUMBER 
+    // Q2SWAP 2 NUMBER 
     //   int a = 10;
     //   int b = 9;
     //   System.out.println("a:"+a+" b:"+b);
@@ -33,7 +33,7 @@ public class Assignement
     // if(a%2==0)System.out.println("Even");
     // else System.out.println("odd");
        
-   //PRINT ASCII VALUE 
+    // Q5RINT ASCII VALUE 
     // char a = 'a';
     // char b = 'b';
     // System.out.println((int)a+(int)b); 

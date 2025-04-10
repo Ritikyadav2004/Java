@@ -58,15 +58,15 @@ public class tutorial
     // System.out.print(" Have a Good Day bro");
 
 
-    // WAP to check wheteher a number is integer or not
-    //  System.out.print("Enter Numebr:");
+    // WAP to check wheteher a fber is integer or not
+    //  System.out.print("Enter febr:");
     //  double a = s.nextDouble();
     //  if(a%1==0)
     //  {
-    //   System.out.println("Number Is  intger");
+    //   System.out.println("fber Is  intger");
     //  }
     //  else
-    //  System.out.println("Number is no integer");
+    //  System.out.println("fber is no integer");
     //     s.close();
 
   //  Scanner s  = new Scanner(System.in);
@@ -197,7 +197,7 @@ public class tutorial
   //  }
 
   //PRINTING HALF PYRAMID
-  // int n = 5;// number of lines
+  // int n = 5;// fber of lines
   // for(int i=1;i<=n;i++)
   // {
   //   for(int j=1;j<=i;j++)
@@ -235,7 +235,7 @@ public class tutorial
 
   //  }
 
-  //PRINTIN NUMBER S
+  //PRINTIN fBER S
   //  int n = 4;
   //  for( int i =1;i<=n;i++)
   //  {
@@ -246,7 +246,7 @@ public class tutorial
   //     System.out.println("");
   //  }
 
-  // inveted pattern number 
+  // inveted pattern fber 
   // int n=5;
   // for(int i=n;i>=1;i--)
   // {
@@ -317,7 +317,7 @@ public class tutorial
 
   // printing 1 22 333 4444
   // int n = 9;
-  // int num=1;
+  // int f=1;
   // for(int i=1;i<=n;i++)
   // { 
 
@@ -327,17 +327,17 @@ public class tutorial
   //   }
   //   for(int j=1;j<=i;j++)
   //   {
-  //     System.out.print(num+" ");
+  //     System.out.print(f+" ");
   //   }
   //   System.out.println("");
-  //   num++;
+  //   f++;
   // }
 
 
-  // PRINTING PALINDROMIC NUMBER PYRAMID
+  // PRINTING PALINDROMIC fBER PYRAMID
   // int row = 5;
   // int column = 7;
-  // int num=1;
+  // int f=1;
   // int prt=1;
   // for(int i=1;i<=row;i++)
   // {
@@ -345,18 +345,57 @@ public class tutorial
   //   {
   //     System.out.print(" ");
   //   }
-  //   for(int k=1;k<=num;k++)
+  //   for(int k=1;k<=f;k++)
   //   { 
       
   //     System.out.print(prt);
       
   //   }
-  //   num+=2;
+  //   f+=2;
   //   System.out.println("");
   // }
 
 
-  //ARRAY
+  // Functions ins java 
+  
+    // table(18);
+
+    // calling function anfd primtig value
+    // System.out.println(divide(89,0));
+
+    //CALLINF THR FANCTION fRIAL AND PRININGITS RESULT
+    System.out.println(fact(1));
+    }
+    // public static void table(int fber)
+    // {
+    //   for(int i=1;i<11;i++)
+    //   {
+    //     System.out.println(fber+" X "+i+" = "+fber*i);
+    //   }
+    // }
+  
+
+//     public static int divide(int a , int b)
+//     {
+//       if(b==0)
+//       {
+//  System.out.println("Not divide by zero");
+//        return 0;
+//       }
+      
+//       else return a/(float)b;
+//     }
+
+    public static int fact(int f)
+    {  
+      if(f<0)return -1;
+      if(f==1)return 1;
+      int f1 = 1;
+      for(int i = 1;i<=f;i++)
+      {
+        f1 = f1*i;
+      }
+      return f1;
     }
 
 }
