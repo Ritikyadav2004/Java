@@ -45,6 +45,24 @@ public class training
     //     System.out.println("Hello World again");
     // }
                     //      true:false
-    System.out.println(5<6?"hii":"hello");
+
+    //TERNERY OPERAATOR                
+    //System.out.println(5<6?"hii":"hello");
+
+    int a = 5;
+    switch (a) {
+        case 1:
+        case 2:
+        case 3:
+        case 4:// case 1-4 same statment 
+            System.out.println("Hello");
+            break;
+        case 5:
+        System.out.println("hi there");
+        break;
+        default:
+        System.out.println("Byeee");
+            break;
+    }   
     }
 }
