@@ -1,7 +1,7 @@
 public class simple_triangle {
     public static void main(String[] args) {
         System.out.println("This codw will prin Normal triangle pattern.");
-        int row = 50;
+        int row = 60;
         int column = (2*row) -1;
         for(int i=1;i<=row;i++)
         {
