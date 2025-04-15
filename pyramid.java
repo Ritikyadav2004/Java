@@ -13,7 +13,7 @@ public class pyramid {
         {
             System.out.print(" * ");
         }
-        System.out.println();
+        System.out.println(); 
        }
     }
     

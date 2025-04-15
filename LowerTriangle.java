@@ -4,7 +4,7 @@ public class LowerTriangle {
         int n =5;
         for(int i =1;i<=n;i++)
         {   
-            for(int k=2;k<=i;k++)
+            for(int k=2;k<=i;k++) 
             {
                 System.out.print("   ");
             }

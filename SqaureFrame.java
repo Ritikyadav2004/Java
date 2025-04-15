@@ -8,7 +8,7 @@ public class SqaureFrame {
                 if(i==1||j==1||i==n||j==n){
                     System.out.print(" * ");
                       }
-                      else
+                      else 
                     System.out.print("   ");
                 
             }
