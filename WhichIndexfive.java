@@ -9,7 +9,7 @@ public class WhichIndexfive {
         {
             if(arr[i]+arr[j]==number && i!=j)
             {
-                System.out.println("Pair Found: " + arr[i] + " and " + arr[j]);
+                System.out.println("Pair Found: " + arr[i] + " and " + arr[j]+" At index:"+i+" "+j);
                 //System.out.print(i+" and "+j);
                 break;
             }

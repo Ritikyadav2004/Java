@@ -10,10 +10,10 @@ public class uniqueElemnt
         {
             for(int j=0;j<arr1.length;j++)
             {
-                if(arr1[i]!=arr2[j] && i!=j)
+                if(arr1[i]!=arr2[j])
                 {
                     flag = true;
-                    
+                    int temp = arr[j];
                 }
                           
                 
