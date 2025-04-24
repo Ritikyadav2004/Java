@@ -24,7 +24,7 @@ public class Assignement
     //    int b=9;
     //    System.out.println("a:"+a+" b:"+b);
     //    a=a+b;  //19
-    //    b=a-b;  //19=10=9
+    //    b=a-b;  //19-10=9
     //    a=a-b;  //19-9=10
     //    System.out.println("a:"+a+" b:"+b);
 

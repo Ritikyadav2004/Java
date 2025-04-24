@@ -29,10 +29,10 @@
     // float Ritik;
     // Ritik = 9;
     // System.out.println((Ritik));
-    int x;
-    byte y;
-    long z;
-    float u=9.8f;;
+    int x;//4byte
+    byte y; //1byte
+    long z;//8byte
+    float u=9.8f;;//4byte
     
     x=999;
    y=127;

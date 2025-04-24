@@ -7,7 +7,7 @@ public class merging2array {
         int k=0;
         for(int i=0;i<(arr1.length+arr2.length);i++)
         {   
-            if(j>=5)
+            if(j>=arr1.length)
             {
                 arr3[i]=arr2[k];
                 k++;

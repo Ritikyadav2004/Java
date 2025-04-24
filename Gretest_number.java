@@ -2,9 +2,9 @@ import java.util.Scanner;
 public class Gretest_number {
    public static void main(String[] args)
    {
-     Scanner s =new Scanner(System.in);
+     Scanner s =new Scanner(System.in); //creating object 
      System.out.println("Enter the first number: ");
-     int n=s.nextInt();
+     int n=s.nextInt();  taking input
      System.out.println("Enter the second number");
      int m  =s.nextInt();
      if(n<m)System.out.println("The greatest number is: "+m);

@@ -52,16 +52,17 @@ public class tutorial
     // s.close();
 
     // for taking string as a input
-    // String a = s.next();
+    // String a = s.next();  // it tack only one word
+    // String b = s.nextLine(); // it takes all the line as a input
     // System.out.print("Hello ");
     // System.out.print(a);
     // System.out.print(" Have a Good Day bro");
 
 
-    // WAP to check wheteher a fber is integer or not
+    // WAP to check whether a fber is integer or not
     //  System.out.print("Enter febr:");
     //  double a = s.nextDouble();
-    //  if(a%1==0)
+    //  if(a%1==0)// modulus work only with integr
     //  {
     //   System.out.println("fber Is  intger");
     //  }
@@ -79,17 +80,17 @@ public class tutorial
    
   // double result = ((b*b)-(4*a*c))/(float)(2*a);
   // //HERE WE NEED A TYPECSTING
-  //  //double result = (a*a-b*b)/(float)2;
+  //  //double result = (a*a-b*b)/(float)2; // as int/int = int
   //  System.out.println("Roots of the eqautins are:"+result);
    
    
   //   s.close();
 
-  // int y = 7;
-  //y++ pahle use kro phir badhao
+  int y = 7;
+ // y++ pahle use kro phir badhao
   //++y pahle badhao phir use kro
   // System.out.println("Initial  value of Y:"+y);
-  // int x = y++ + 8;
+  // int x = ++y + 8;
 
   // System.out.println("Result:"+x);
   // System.out.println("Current Value of y :"+y);
@@ -365,7 +366,10 @@ public class tutorial
 
     //CALLINF THR FANCTION fRIAL AND PRININGITS RESULT
     System.out.println(fact(1));
-    }
+    } //closing of main function
+
+    // method decalerd within class and outside main functon
+    // outside main funxton we re calling the functionss
     // public static void table(int fber)
     // {
     //   for(int i=1;i<11;i++)
@@ -399,3 +403,4 @@ public class tutorial
     }
 
 }
+

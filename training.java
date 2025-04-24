@@ -21,18 +21,18 @@ public class training
     //  byte c=(byte)b; //??
     // byte a = 20;
     // byte b  = 30;
-    // byte c =(byte)(a+b);  //+ operator return answer in integer
+    // int c =a+b;  //+ operator return answer in integer
     // System.out.println(c);
-    // System.out.println("Hello World again!"+10+10);
-    // System.out.println(10+10+" Hello World again!");
+    ///System.out.println("Hello World again!"+10+10);
+   // System.out.println(10+10+" Hello World again!");//pahele number o add honge nhit concatenate
     // boolean a =false;
     // boolean b =true;
     // System.out.println(a&b);  // true 
     // System.out.println(a&&b);
-    //System.out.println(5<6);   // true
+   // System.out.println(5<6);   // true
  
-    // int a = 5;  // binaery vlue compared 101
-    // int b=4;    // binaery vlue compared 100
+    // int a = 4;  // each binaery vlue compared 101
+    // int b=2;    // binaery vlue compared 100
     // System.out.println(b&a);  //bitwise OR it return low value
 
     // boolean a=false;
@@ -49,20 +49,20 @@ public class training
     //TERNERY OPERAATOR                
     //System.out.println(5<6?"hii":"hello");
 
-    int a = 5;
-    switch (a) {
-        case 1:
-        case 2:
-        case 3:
-        case 4:// case 1-4 same statment 
-            System.out.println("Hello");
-            break;
-        case 5:
-        System.out.println("hi there");
-        break;
-        default:
-        System.out.println("Byeee");
-            break;
-    }   
+    // int a = 5;
+    // switch (a) {
+    //     case 1:
+    //     case 2:
+    //     case 3:
+    //     case 4:// case 1-4 same statment 
+    //         System.out.println("Hello");
+    //         break;
+    //     case 5:
+    //     System.out.println("hi there");
+    //     break;
+    //     default:
+    //     System.out.println("Byeee");
+    //         break;
+    // }   
     }
 }
