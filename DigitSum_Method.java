@@ -21,7 +21,6 @@ public class DigitSum_Method {
           int rem = a%10;
           sum+=rem;
           a/=10;
-        }
         System.out.println("This is Calling Through with Static Function means no need to calling object "+sum);
     }
     public static void main(String[] args) {

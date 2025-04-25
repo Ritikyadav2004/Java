@@ -1,10 +1,11 @@
 {
     "java.project.sourcePaths": [
-        "JavaFiles"
+        "src",
+        "String",
+        "Prcatise"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
-    ],
-    "java.debug.settings.onBuildFailureProceed": true
+    ]
 }
