@@ -27,7 +27,7 @@ class ArrayInput {
             
         }
         System.out.println("First Maximum is :"+max);
-        if(max_index!=n-1)
+        if(max_index!=n-1)    
         {
             int temp = arr[n-1];
             arr[n-1] = arr[max_index];
