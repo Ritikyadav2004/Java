@@ -1,6 +1,6 @@
 public class Methods
 {     
-      void sumFloat(double a, double b)
+      void sumFloat(double a, double b)  // STATIC KEYWORD NHI LAGAYA HE TO METHOD
       {
         System.out.println(a+b);
       }
