@@ -1,4 +1,35 @@
-public class Sort_String {
+public class Sort_String
+{
+    public static void main(String[] args) {
+        String []  str = {"A","B","D","C"};
+        char [] arr = new char[str.length];
+        for(int i=0;i<str.length;i++)
+        {
+            arr[i] = str[i].charAt(0);
+        }
+
+        for(int j=0;j<arr.length;j++)  // buble sort
+        {
+            for(int i=0;i<arr.length-1-j;i++)
+            {
+                if((int)arr[i+1]<(int)arr[i])
+                {
+                    char temp = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = temp;
+                }
+            }
+        }
+       for(int c=0;c<arr.length;c++)
+        {
+            System.out.println(arr[c]+" ");
+        }
+    }
+}
+
+
+/*
+ * public class Sort_String {
 
 public static void main(String[] args) {
     String [] str ={"A","C","B"};
@@ -22,3 +53,7 @@ public static void main(String[] args) {
 
 }
 }
+ * 
+ * 
+ * 
+ */
