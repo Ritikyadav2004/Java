@@ -24,6 +24,6 @@ public class FindNumberHaveGreatersumUsingMethods
         else return b1;
     }
     public static void main(String[] args) {
-        System.out.println( "Maximum Number:"+findNum(122, 123));
+        System.out.println( "Maximum Number:"+findNum(125, 123));
     }
 }
