@@ -50,6 +50,7 @@ public class Bank {
     {
         System.out.println("Enter Choice:");
         a = s.nextInt();
+        s.close();
         if(a==1)
         {   
             System.out.print("Enter acno :");
@@ -67,5 +68,6 @@ public class Bank {
             m1.withdraw(amt,acno);
         }
     }
+   
  }
 }

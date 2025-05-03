@@ -1,6 +1,4 @@
 
-import java.awt.Color;
-
 class shape
 {
     String color;
