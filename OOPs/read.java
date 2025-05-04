@@ -2,7 +2,7 @@ class book
 {
     void read(String name)
     {
-        System.out.println("You hav choose "+name+" to read");
+        System.out.println("You have choose "+name+" to read");
     }
 }
 class Novel extends book
