@@ -1,1 +1,34 @@
 no destrucot in java it do automatcally
+
+if constructor me value pass krte he to constructor me object overwrite ho jata he if defualt declare kiya ho  to
+
+but if we call directlty object(variable) then default value ayegi see above code
+{
+    class parent
+{  
+    String name = "Ritik Yadav";
+    parent(String name)
+    {   
+        // n = name;
+        System.out.println(name);
+    }
+}
+public class constructor {
+   public static void main(String[] args) {
+     parent p1 = new parent("Universe");
+     System.out.println(p1.name);
+   }
+    
+}
+
+}
+
+{
+     String name = "Ritik Yadav";
+    parent(String name)
+    {                                this kewyword change the default value of objcet
+        // n = name;
+        this.name=name;
+        System.out.println(name);
+    }
+}
