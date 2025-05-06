@@ -32,3 +32,11 @@ public class constructor {
         System.out.println(name);
     }
 }
+
+
+this keyword used to diffrentita between local and instance variable 
+this keyword alwasy points to instance varibale 
+JVM gets confused 
+
+constructor chaining means multiple constructor ek sath bna do and ek ko call kro
+this keywordki help se kisi bhi constructor ko call kr sakte he 
