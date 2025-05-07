@@ -40,3 +40,34 @@ JVM gets confused
 
 constructor chaining means multiple constructor ek sath bna do and ek ko call kro
 this keywordki help se kisi bhi constructor ko call kr sakte he 
+
+
+this keyword neve used after super  prevois may used
+super keyword is alawys used hen there is a relation of child and parent
+also super keyword refers to parent class of tat child class
+
+also wwork in only case of inheritence
+
+methods oveeriding ke case me method ka name same hota he 
+class Parents
+{
+     void eat()
+     {
+        System.out.println("Magic");
+     }
+}
+class child extends Parents
+{
+     void eat()
+     {
+        System.out.println("Jaduuu");
+     }
+}
+public class methodOverriding
+{
+     public static void main(String[] args)
+     {
+        Parents p1 = new child();
+        p1.eat();
+     }
+}
