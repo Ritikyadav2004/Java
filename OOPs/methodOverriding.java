@@ -6,7 +6,7 @@ class Parents
      }
 }
 class child extends Parents
-{
+{    @Override
      void eat()
      {
         System.out.println("Jaduuu");
