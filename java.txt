@@ -74,7 +74,7 @@ public class methodOverriding
 
 
 
-abstract class 
+abstract class   // ek se jyada abstract class use nhi kr sakt but inteface ek se jyada use kr sakte 
 {
     An abstract class in Java is a class that is 
     declared with the abstract keyword. It cannot 
@@ -110,3 +110,44 @@ public class Main {
     }
 }
 }
+
+interface and abstract class sort if same but un intrface when defining function we should
+use publuc keyword to it and also we cannot modify the value of the object 
+    {
+        interface Bicycle // multiple inheritence
+{   
+    int a = 99;
+    void Break(int decr);
+    void speed(int incr);
+}
+class avaonCycle implements Bicycle{
+    void horn()
+    {
+        System.out.println("Pee pee pop pop ");
+    }
+
+    public void Break(int decr)
+    {
+        System.out.println("Applying Break");
+    }
+    
+    public void speed(int incr)
+    {
+        System.out.println("Apply speed");
+    }
+
+}
+public class interface_{
+    public static void main(String[] args) {
+        avaonCycle a1 = new avaonCycle();
+        a1.Break(1);
+        a1.speed(2);
+        System.out.println(a1.a);
+
+    }
+}
+
+    }
+
+    cannot assign a value to static final variable a
+         a1.a = 67;
