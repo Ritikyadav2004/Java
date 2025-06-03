@@ -1,0 +1,60 @@
+Multithreading is sort of Asyncronus programming
+it is tell how we can achieve multiple task, executing parllel
+parllel programming is achieve in this
+Syncronus and Asyncronus which is best type of programming
+if code is written in order and well sequenced manner it is Syncronus other wise Asyncronus
+{
+    ex.                              priority
+    sout("Hi");   // 2 min           I
+    sout("Hey There"); // 1 min      II
+    sout("Byee"); // 30 second       III
+}
+but in case of Asyncronus parllel things were occure ans less time consuming 
+GitHub Copilot
+
+What is Multithreading?
+Multithreading means running two or more parts of a program at the same time.
+Each part is called a thread.
+It helps your program do multiple things at once, like downloading a file while showing a progress bar.
+
+
+Why Use Multithreading?
+Faster execution: Tasks can run in parallel.
+Better resource use: CPU can work on another task while one is waiting.
+
+Without thread (Syncronus)
+System.out.println("Hello");
+System.out.println("World");
+
+with thread
+class MyThread extends Thread {
+    public void run() {
+        for(int i=0; i<5; i++) {
+            System.out.println("Hello from MyThread");
+        }
+    }
+}
+
+public class SimpleThreadExample {
+    public static void main(String[] args) {
+        MyThread t1 = new MyThread(); // Create a thread
+        t1.start(); // Start the thread
+
+        for(int i=0; i<5; i++) {
+            System.out.println("Hello from main");
+        }
+    }
+}
+
+Key Points
+Use .start() to run a thread.
+Each thread runs its run() method.
+Threads can help make programs faster and more responsive.
+
+Creating Thread
+Thread is a class which we extend in my class
+ we can undertand that there is 2 engine one is main class 
+ and another is Thread
+
+ multipe thread supprt krta he but we have t create a therad manually
+ 
