@@ -7,23 +7,25 @@ class withdraw extends Thread
         this.amount=amount;
     }
     public void run()
-        {   
-            System.out.println("Thread " + Thread.currentThread().getName() + " is running"); 
+        {   synchronized(withdraw.class) 
+            {
+                System.out.println("Thread " + Thread.currentThread().getName() + " is running"); 
+            
+            
             try {
-                Thread.sleep(1000);
-            } catch (Exception e) {
-                // TODO: handle exception
-            }
+                Thread.sleep(5000);
+            } catch (Exception e) {}
                 if(amount<=balance) 
-        {        
+        {       
              System.out.println("Withdrawn " + amount );
-             balance-=amount;
+             balance-=amount; 
              System.out.println( "Remaining balance: " + balance);
         } 
         else
         {
             System.out.println("Not enough money");
         }
+    }
            
 
             
