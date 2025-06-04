@@ -56,5 +56,5 @@ Thread is a class which we extend in my class
  we can undertand that there is 2 engine one is main class 
  and another is Thread
 
- multipe thread supprt krta he but we have t create a therad manually
+multipe thread supprt krta he but we have t create a therad manually
  

@@ -1,0 +1,9 @@
+thread dono ek sath chslte he 
+let us take an example shared bankaccount
+ammount =1000;
+ek thread ne 500 withdraw kiye 
+dusre thread ne 800 withdraw kiye 
+ek thread ko dusre thread ne kitna withdraw kiya he nhi pata dono ko 
+but both money to withdraw kernge 
+but total balce 1000
+and 1300 rupee withdraw
