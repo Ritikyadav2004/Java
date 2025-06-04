@@ -78,7 +78,7 @@ abstract class   // ek se jyada abstract class use nhi kr sakt but inteface ek s
 {
     An abstract class in Java is a class that is 
     declared with the abstract keyword. It cannot 
-    be instantiated directly, meaning you cannot 
+    be initiated directly, meaning you cannot 
     create objects of an abstract class.
      Abstract classes are designed to be extended
     by other classes and can include both abstract 
@@ -111,7 +111,7 @@ public class Main {
 }
 }
 
-interface and abstract class sort if same but un intrface when defining function we should
+interface and abstract class sort of same but an intrface when defining function we should
 use publuc keyword to it and also we cannot modify the value of the object 
     {
         interface Bicycle // multiple inheritence
@@ -151,3 +151,5 @@ public class interface_{
 
     cannot assign a value to static final variable a
          a1.a = 67;
+         
+non static variable ko static class ke ander decalre nhi kr satke

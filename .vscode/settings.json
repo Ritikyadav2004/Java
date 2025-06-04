@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "OOPs"
+        "OOPs",
+        "multithreading"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
