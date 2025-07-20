@@ -1,40 +1,32 @@
-class withdraw extends Thread
-{
+class withdraw extends Thread {
     public static int balance = 1000;
     int amount;
-    public withdraw(int amount)
-    {
-        this.amount=amount;
+
+    public withdraw(int amount) {
+        this.amount = amount;
     }
-    public void run()
-        {   synchronized(withdraw.class) 
-            {
-                System.out.println("Thread " + Thread.currentThread().getName() + " is running"); 
-            
-            
+
+    public void run() {
+        synchronized (withdraw.class) {
+            System.out.println("Thread " + Thread.currentThread().getName() + " is running");
+
             try {
                 Thread.sleep(5000);
-            } catch (Exception e) {}
-                if(amount<=balance) 
-        {       
-             System.out.println("Withdrawn " + amount );
-             balance-=amount; 
-             System.out.println( "Remaining balance: " + balance);
-        } 
-        else
-        {
-            System.out.println("Not enough money");
+            } catch (Exception e) {
+            }
+            if (amount <= balance) {
+                System.out.println("Withdrawn " + amount);
+                balance -= amount;
+                System.out.println("Remaining balance: " + balance);
+            } else {
+                System.out.println("Not enough money");
+            }
         }
-    }
-           
 
-            
-
-        
     }
 }
-public class bankaccount_problem
-{
+
+public class bankaccount_problem {
     public static void main(String[] args) {
         withdraw t1 = new withdraw(800);
         withdraw t2 = new withdraw(400);
