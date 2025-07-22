@@ -4,7 +4,7 @@ public class Pangrams { // Class name convention: start with uppercase
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter String :");
+        System.out.println("Enter String :"); 
         String str = sc.nextLine();
 
         // Convert the entire string to lowercase for case-insensitive checking
@@ -40,7 +40,7 @@ public class Pangrams { // Class name convention: start with uppercase
         }
 
         if (isPangram) {
-            System.out.println("The string is a pangram.");
+            System.out.println("The string is a Pangram.");
         } else {
             System.out.println("The string is not a pangram.");
         }
