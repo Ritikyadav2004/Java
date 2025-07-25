@@ -15,7 +15,7 @@ public class count_Distinct_element {
     if(isdistinct)
     {
         count++;
-    }    
+    }       
   }
   return count;
     }
@@ -28,7 +28,7 @@ public class count_Distinct_element {
     // for(int i=0;i<len;i++)
     // {
     //   arr[i] = s.nextInt();
-    System.out.println("Length of distinct element is "+countElemnt(arr,arr.length));
+    System.out.println("length of distinct element is "+countElemnt(arr,arr.length));
     // }
 
   }
