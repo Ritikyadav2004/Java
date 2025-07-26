@@ -16,7 +16,10 @@ public class stringbuilder
             System.out.println("false");
         System.out.println(str2);
         System.out.println(str1);
+
+        str2.append("Hey There Iam Ritik Yadav");
     
-       
+         System.out.println(str2);
+        
     }
 }
