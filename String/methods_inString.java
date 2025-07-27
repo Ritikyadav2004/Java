@@ -7,7 +7,7 @@ public class methods_inString
         System.out.println(str1.length());
         System.out.println(str1.capacity());
         // The indexOf() method must be called on the StringBuilder instance
-        // and it takes a String argument to search for.
+        // and it takes a String argument to se arch for.
         // For example, to find the index of "eek":
         System.out.println(str1.indexOf("eek")); // Output: 1
 
