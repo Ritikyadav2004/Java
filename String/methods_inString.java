@@ -19,7 +19,7 @@ public class methods_inString
 
         // The setCharAt() method returns void, so it cannot be inside println.
         // First, modify the character at index 1 to '9'.
-        str1.setCharAt(1, '9');
+        str1.setCharAt(1, '9'); 
         // Then, print the modified StringBuilder.
         System.out.println(str1);
     }
