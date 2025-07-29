@@ -7,7 +7,7 @@ public class length_last_Word
         //s.close();
         String str = "hello world  ";
         str = str.trim();
-        int len = str.length();
+        int len = str.length();  
         int sum = 0;
         for(int i=len-1;i>=0;i--)
         {
