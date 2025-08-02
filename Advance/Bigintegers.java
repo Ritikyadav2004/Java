@@ -21,7 +21,7 @@ public class Bigintegers
     BigInteger B2 =   BigInteger.valueOf(b2);   // need not to be declre as new Bigintger
         System.out.println("This is Integer value:"+d);
  // System.out.println(a.compare(b));
-  System.out.println(a.remainder(b));
+  System.out.println(a.remainder(b)); 
 
   System.out.println("Finding Factorial of given number  100 :");
 int n = 50;
