@@ -6,7 +6,7 @@ public class Bigintegers
     BigInteger a = new BigInteger("123456789");
     BigInteger b = new BigInteger("123456789");
     BigInteger c = a.add(b);
-    System.out.println("Addition of two large number :"+c);
+    System.out.println("Addition of two large number :"+c);  
     c=a.subtract(b);
     System.out.println("Subtraction of two large number :"+c);
     c=a.multiply(b);
@@ -19,7 +19,7 @@ public class Bigintegers
     System.out.println("This is String indirect way:"+d);
     int b2 = 7463;
     BigInteger B2 =   BigInteger.valueOf(b2);   // need not to be declre as new Bigintger
-        System.out.println("This is Integer value:"+d);
+        System.out.println("This is Integer value:"+B2);
  // System.out.println(a.compare(b));
   System.out.println(a.remainder(b)); 
 
